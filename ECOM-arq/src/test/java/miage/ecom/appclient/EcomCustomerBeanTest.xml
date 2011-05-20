@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+	<admin id_admin="1" name="admin" login="admin" password="admin"></admin>
+
+	<category id_category="1" name="Video Games" image="vg"></category>
+
+	<status id_status="1" label="Active"></status>
+
+	<account id_account="1" balance="0" iban="222" id_status="1"></account>
+	<account id_account="2" balance="1000" iban="333" id_status="1"></account>
+
+
+
+	<customer id_customer="1" address="1 washington street" firstname="john" lastname="smith" login="smith" password="af88ddc2a05b4210fb931f7b15929d52" id_account="1"></customer>
+
+	<store id_store="1" name="TestStore" id_account="1" id_status="1"></store>
+	<store id_store="2" name="TestStore2" id_account="2" id_status="1"></store>
+
+
+
+	<product id_product="1" name="Metal Gear Solid 4" reference="vg-mgs4" price="4000" description="Tactical espionnage action" image="mgs4" id_category="1"></product>
+	<product id_product="2" name="Mortal Kombat" reference="vg-mk" price="5000" description="The tournament has begun" image="mk" id_category="1"></product>
+
+	<store_has_product id_product="1" id_store="1" quantity="3"></store_has_product>
+
+</dataset>

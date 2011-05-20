@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-package</actionName>
+            <displayName>package</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Assemby</actionName>
+            <displayName>Assemby</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+                <goal>assembly:single</goal>
+            </goals>
+            <properties>
+                <maven.test.skip>true</maven.test.skip>
+            </properties>
+        </action>
+    </actions>
