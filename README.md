@@ -58,6 +58,7 @@ compte FR7630003003930003728602468
 * SPRING MVC : pour l’interface web client
 * JPA/HIBERNATE : gestion de la persistance
 * Sencha : pour l’interface web d’administration
+* Sass
 
 ## Modules du projet
 
